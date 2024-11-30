@@ -1,0 +1,134 @@
+{
+	"info": {
+		"_postman_id": "6a461bda-e29c-4d00-b32d-8dbad7a37e33",
+		"name": "Landsat Satellite",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "38880535"
+	},
+	"item": [
+		{
+			"name": "Nasa",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Basarili code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/earth/assets?lon=-95.33&lat=29.78&date=2024-10-17&&dim=0.750&api_key={{apikey}}",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"earth",
+						"assets"
+					],
+					"query": [
+						{
+							"key": "lon",
+							"value": "-95.33"
+						},
+						{
+							"key": "lat",
+							"value": "29.78"
+						},
+						{
+							"key": "date",
+							"value": "2024-10-17"
+						},
+						{
+							"key": null,
+							"value": null
+						},
+						{
+							"key": "dim",
+							"value": "0.750"
+						},
+						{
+							"key": "api_key",
+							"value": "{{apikey}}"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PHOTO",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Basarili 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://earthengine.googleapis.com/v1alpha/projects/earthengine-legacy/thumbnails/cf8a1421c24217d05be60b951f90f0bb-ef9b74bb104f2e8f567af5541a06b395:getPixels",
+					"protocol": "https",
+					"host": [
+						"earthengine",
+						"googleapis",
+						"com"
+					],
+					"path": [
+						"v1alpha",
+						"projects",
+						"earthengine-legacy",
+						"thumbnails",
+						"cf8a1421c24217d05be60b951f90f0bb-ef9b74bb104f2e8f567af5541a06b395:getPixels"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

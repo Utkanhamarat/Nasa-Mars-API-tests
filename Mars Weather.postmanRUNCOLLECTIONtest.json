@@ -1,0 +1,53 @@
+{
+	"id": "d31430c7-c5e6-4dc9-8e34-18693bb9ec1d",
+	"name": "Mars Weather",
+	"timestamp": "2024-11-24T22:21:24.298Z",
+	"collection_id": "38880535-19dedea0-d61d-4548-aa4f-80a81de9a361",
+	"folder_id": 0,
+	"environment_id": "38880535-949bb15e-a6a2-4043-ac3c-d4e1cedb94e3",
+	"totalPass": 1,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-11-24T22:21:22.543Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "77dbea78-7f3a-4130-8d1c-7a1e669e6983",
+			"name": "HTTP Request",
+			"url": "https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0",
+			"time": 1042,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Basarili 200": true
+			},
+			"testPassFailCounts": {
+				"Basarili 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1042
+			],
+			"allTests": [
+				{
+					"Basarili 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1042,
+	"collection": {
+		"requests": [
+			{
+				"id": "77dbea78-7f3a-4130-8d1c-7a1e669e6983",
+				"method": "GET"
+			}
+		]
+	}
+}

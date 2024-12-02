@@ -17,7 +17,9 @@ PROJELERIMDE: Postman ile test koleksiyonları oluşturulmuş ve environment de�
 
 25.10.2024 - 27.10.2024 Tarihleri arasında Bu projeyi tamamladım.
 
+
 -ENGLISH-
+
 
 TECHNOLOGIES
 

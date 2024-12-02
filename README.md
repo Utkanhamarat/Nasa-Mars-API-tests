@@ -19,7 +19,7 @@ PROJELERIMDE: Postman ile test koleksiyonları oluşturulmuş ve environment de�
 
 -ENGLISH-
 
-TECHNOLOGIES USED
+TECHNOLOGIES
 
 Postman: To test API values ​​and create scenarios. Newman: In automation and reporting. GitHub: For project text and sharing.
 

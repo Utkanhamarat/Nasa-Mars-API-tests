@@ -18,6 +18,7 @@ PROJELERIMDE: Postman ile test koleksiyonları oluşturulmuş ve environment de�
 25.10.2024 - 27.10.2024 Tarihleri arasında Bu projeyi tamamladım.
 
 -ENGLISH-
+
 TECHNOLOGIES USED
 
 Postman: To test API values ​​and create scenarios. Newman: In automation and reporting. GitHub: For project text and sharing.

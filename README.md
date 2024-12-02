@@ -17,6 +17,18 @@ PROJELERIMDE: Postman ile test koleksiyonları oluşturulmuş ve environment de�
 
 25.10.2024 - 27.10.2024 Tarihleri arasında Bu projeyi tamamladım.
 
+-ENGLISH-
+TECHNOLOGIES USED
+
+Postman: To test API values ​​and create scenarios. Newman: In automation and reporting. GitHub: For project text and sharing.
+
+SKILLS ACQUIRED WITH THE PROJECT:
+
+I gained the ability to create API test and error scenarios. I gained the ability to manage test automation processes with Postman and Newman. I gained the competence to manage dynamic and missing data situations. JSON had gained the practicality and competence of reporting in HTML format.
+
+IN MY PROJECTS: Postman file test collections were created and API test parts were made more dynamic and sustainable with environment variables. This study demonstrates the change in API testing and automations.
+
+I completed this project between 25.10.2024 - 27.10.2024.
 
 --Landsat Satellite--
 
